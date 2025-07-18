@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.webcam-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.result-container {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#result {
+    font-weight: bold;
+}
